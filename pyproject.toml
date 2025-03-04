@@ -1,9 +1,10 @@
 [project]
-name = "subtitle-to-pdf"
+name = "sub-parser"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
-    "reportlab>=4.3.0",
+    "fpdf>=1.7.2",
+    "requests>=2.32.3",
 ]
